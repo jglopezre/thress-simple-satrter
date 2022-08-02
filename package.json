@@ -1,0 +1,41 @@
+{
+  "name": "thress-simple-satrter",
+  "version": "0.0.1",
+  "description": "A webpack based develop environment for threejs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jglopezre/thress-simple-satrter.git"
+  },
+  "keywords": [
+    "threejs",
+    "webpack"
+  ],
+  "author": "Javier Lopez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jglopezre/thress-simple-satrter/issues"
+  },
+  "homepage": "https://github.com/jglopezre/thress-simple-satrter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.20.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "three": "^0.143.0"
+  }
+}
